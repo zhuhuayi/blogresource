@@ -30,7 +30,7 @@ cd node-v12.16.1-linux-x64/bin/
 ./node -v
 ```
 
-
+![node-version](https://github.com/zhuhuayi/blogresource/blob/master/picture/2020-3/node-bin-version.png?raw=true)
 
 我们可以看到node的两个核心命令就在bin目录下，但是不能在任何地方执行它，所以要加上软连接，让它们在任何地方可以执行
 
@@ -86,7 +86,7 @@ centos可以参考下面命令
 
 hexo blog创建完目录结构是这样的：
 
-
+<img src="https://github.com/zhuhuayi/blogresource/blob/master/picture/2020-3/blog-structure.png?raw=true" alt="hexo-blog-structure" style="zoom:80%;" />
 
 ### 2. 主题选定
 
@@ -123,15 +123,17 @@ hexo s #(如果之前以 hexo s & 启动，后面就可以不需要执行该命�
 
 ​	语言的话默认为en, 提供中文，需要修改 language: zh-Hans
 
+<img src="https://github.com/zhuhuayi/blogresource/blob/master/picture/2020-3/change-hexo-site.png?raw=true" alt="config.yml" style="zoom:80%;" />
+
 ### 2. 修改菜单
 
 ​	修改 /myblog/source/_data/melody.yml
 
-​	
+​	<img src="https://github.com/zhuhuayi/blogresource/blob/master/picture/2020-3/change-melody-menu.png?raw=true" alt="melody.yml" style="zoom:80%;" />
 
 ​	基本的轮廓就出来了
 
-
+<img src="https://github.com/zhuhuayi/blogresource/blob/master/picture/2020-3/blog-home.png?raw=true" alt="home" style="zoom:67%;" />
 
 其他更多的特性参考hexo-theme-melody官网，这个主题也有许多新特性一直更新
 
